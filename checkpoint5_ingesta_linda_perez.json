@@ -1,0 +1,197 @@
+{
+  "name": "M5 - Ingesta Manual CeluCentral",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "87a483b0-71cc-4fbc-91e1-6d872520bfe7",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "8656cc3e-b547-400a-afe4-ff37c6e63bab",
+              "name": "texto",
+              "value": "# Manual de Políticas CeluCentral 2026\n\nDocumento oficial de políticas de atención al cliente de CeluCentral, tienda online de celulares y accesorios. Versión 1.0, vigente desde el 1 de enero de 2026. Responsable del documento: Líder de Operaciones de CeluCentral.\n\n## 1. Alcance y vigencia\n\nEste manual reúne las políticas vigentes de garantías, devoluciones, envíos, medios de pago y servicio técnico de CeluCentral. Aplica a todas las compras realizadas en la tienda online con entrega dentro de la República Argentina.\n\n## 2. Garantías\n\n### 2.1 Plazos de garantía por tipo de producto\n\nEl plazo de garantía de CeluCentral depende del tipo de producto y se cuenta desde la fecha de entrega del pedido. La siguiente tabla indica el plazo de garantía de cada tipo de producto.\n\n| Tipo de producto | Plazo de garantía | Condición |\n| --- | --- | --- |\n| Celulares nuevos | 12 meses | Cubre fallas de fábrica |\n| Celulares reacondicionados | 6 meses | Cubre fallas de fábrica |\n| Auriculares y parlantes | 6 meses | Cubre fallas de fábrica |\n| Cargadores y cables | 3 meses | Cubre fallas de fábrica |\n| Fundas y vidrios templados | Sin garantía | Solo se aceptan reclamos por defecto visible dentro de los 10 días corridos desde la entrega |\n\n### 2.2 Qué cubre la garantía\n\nLa garantía de CeluCentral cubre las fallas de fábrica del producto, es decir, defectos de funcionamiento que no fueron causados por el uso. Son ejemplos de fallas cubiertas: el equipo no enciende, la pantalla no responde al tacto, la batería no carga, el micrófono o el parlante no funcionan, o el equipo se reinicia solo.\n\n### 2.3 Qué no cubre la garantía\n\nLa garantía de CeluCentral no cubre los daños causados por el uso del producto. Quedan excluidos de la garantía: golpes y caídas, pantallas rotas o rayadas, daño por contacto con líquidos, equipos abiertos o reparados por un servicio técnico no autorizado, y el desgaste normal de la batería por el uso.\n\n### 2.4 Cómo gestionar un reclamo de garantía\n\nPara gestionar un reclamo de garantía, el cliente debe informar su nombre, el número de pedido, el modelo del equipo y una descripción de la falla. CeluCentral registra el caso y un asesor humano se contacta por correo electrónico dentro de las 48 horas hábiles para indicar los pasos a seguir. El envío del producto al servicio técnico por un reclamo de garantía no tiene costo para el cliente.\n\n## 3. Devoluciones y arrepentimiento de compra\n\n### 3.1 Arrepentimiento de compra\n\nEl cliente puede arrepentirse de la compra y devolver el producto dentro de los 10 días corridos desde la entrega, sin necesidad de explicar el motivo. Para devolver por arrepentimiento, el producto debe estar sin uso, con su empaque original, sus accesorios y los sellos de seguridad intactos. El costo del envío de la devolución por arrepentimiento está a cargo de CeluCentral.\n\n### 3.2 Devolución por falla de fábrica\n\nSi el producto presenta una falla de fábrica dentro de los 30 días corridos desde la entrega, el cliente puede elegir entre el cambio por un producto igual o el reembolso total del importe pagado. Pasados los 30 días corridos, las fallas de fábrica se resuelven por la garantía del producto (sección 2) y no por devolución.\n\n### 3.3 Producto que llegó dañado\n\nSi el producto llegó dañado o con el empaque roto, el cliente debe avisar a CeluCentral dentro de las 48 horas desde la entrega y enviar fotos del producto y del paquete. Si el aviso llega dentro de ese plazo, CeluCentral cambia el producto sin costo para el cliente. Si el aviso llega después de las 48 horas, el caso se evalúa como reclamo de garantía.\n\n### 3.4 Productos que no tienen devolución por arrepentimiento\n\nNo tienen devolución por arrepentimiento los auriculares intrauditivos con el sello de higiene abierto, las fundas y los vidrios templados ya colocados, y las tarjetas de regalo. Estos productos solo se cambian si presentan una falla de fábrica.\n\n### 3.5 Reembolsos\n\nTodo reembolso debe ser aprobado por un asesor humano de CeluCentral antes de ejecutarse. Una vez aprobado, el reembolso se realiza por el mismo medio de pago que usó el cliente y se acredita en un plazo de hasta 10 días hábiles. En las compras con tarjeta de crédito, el reembolso puede verse reflejado en el resumen siguiente, según la fecha de cierre de la tarjeta.\n\n## 4. Envíos\n\n### 4.1 Zonas, plazos y costos de envío\n\nCeluCentral realiza envíos a todo el país. El plazo de entrega se cuenta en días hábiles desde la acreditación del pago. La siguiente tabla indica el plazo de entrega y el costo de envío de cada zona.\n\n| Zona | Plazo de entrega | Costo de envío |\n| --- | --- | --- |\n| Ciudad Autónoma de Buenos Aires (CABA) | 24 a 48 horas hábiles | $4.500 |\n| Gran Buenos Aires (GBA) | 48 a 72 horas hábiles | $6.500 |\n| Interior del país | 3 a 6 días hábiles | $9.800 |\n| Patagonia y Tierra del Fuego | 6 a 10 días hábiles | $14.500 |\n\n### 4.2 Envío gratis\n\nEl envío es gratis en las compras de $400.000 o más con destino a CABA, GBA e Interior del país. El envío gratis no aplica a los destinos de Patagonia y Tierra del Fuego, que siempre pagan el costo de envío de la tabla de la sección 4.1.\n\n### 4.3 Seguimiento del pedido\n\nCuando el pedido se despacha, el cliente recibe por correo electrónico un código de seguimiento para consultar el estado del envío en la página del correo. El código de seguimiento se envía dentro de las 24 horas hábiles posteriores al despacho.\n\n### 4.4 Entrega fallida\n\nEl correo realiza hasta 2 intentos de entrega en el domicilio del cliente. Si los 2 intentos fallan, el pedido queda en la sucursal del correo más cercana durante 5 días hábiles para que el cliente lo retire con su documento. Si el cliente no lo retira en ese plazo, el pedido vuelve a CeluCentral y el reenvío tiene el costo de envío de la zona.\n\n### 4.5 Demoras en la entrega\n\nSi el pedido supera el plazo de entrega de su zona, el cliente puede hacer el reclamo informando su número de pedido. CeluCentral abre un reclamo con el correo y responde al cliente dentro de las 72 horas hábiles.\n\n### 4.6 Retiro en punto de retiro\n\nEl cliente puede retirar su pedido sin costo en el punto de retiro de CeluCentral, disponible únicamente en CABA. El pedido queda listo para retirar a las 24 horas hábiles de acreditado el pago y se guarda durante 10 días corridos.\n\n## 5. Medios de pago y facturación\n\n### 5.1 Medios de pago aceptados\n\nCeluCentral acepta tarjeta de crédito, tarjeta de débito, transferencia bancaria y billeteras virtuales. La siguiente tabla indica las condiciones de cada medio de pago.\n\n| Medio de pago | Cuotas | Beneficio o condición |\n| --- | --- | --- |\n| Tarjeta de crédito | Hasta 12 cuotas | 3 y 6 cuotas sin interés con tarjetas bancarias seleccionadas |\n| Tarjeta de débito | 1 pago | Sin recargo |\n| Transferencia bancaria | 1 pago | 10% de descuento sobre el precio de lista |\n| Billetera virtual o código QR | 1 pago | Sin recargo |\n\n### 5.2 Cuotas con tarjeta de crédito\n\nLas compras con tarjeta de crédito se pueden pagar en hasta 12 cuotas. Las 3 y 6 cuotas son sin interés solo con tarjetas bancarias seleccionadas; las 9 y 12 cuotas tienen interés. El detalle de tarjetas seleccionadas y el interés de cada plan se confirman en el momento del pago.\n\n### 5.3 Facturación\n\nCeluCentral envía la factura por correo electrónico dentro de las 24 horas hábiles de acreditado el pago. Por defecto se emite factura B a consumidor final. Para recibir factura A, el cliente debe informar su CUIT antes de pagar; una vez emitida la factura B, no se puede cambiar por una factura A.\n\n### 5.4 Cobros duplicados\n\nSi el cliente detecta un cobro duplicado, debe informar su número de pedido y la fecha del cobro. Un asesor humano de CeluCentral revisa el caso y, si confirma el cobro duplicado, la devolución del importe se acredita en un plazo de hasta 10 días hábiles por el mismo medio de pago.\n\n## 6. Servicio técnico\n\n### 6.1 Diagnóstico\n\nEl servicio técnico de CeluCentral realiza el diagnóstico del equipo en un plazo de hasta 5 días hábiles desde que recibe el producto. El diagnóstico no tiene costo si el equipo está dentro del plazo de garantía.\n\n### 6.2 Reparación dentro de la garantía\n\nLa reparación de un equipo dentro de la garantía no tiene costo para el cliente y se realiza en un plazo de hasta 15 días hábiles desde el diagnóstico. Si el equipo no se puede reparar, CeluCentral lo cambia por un equipo igual o de características equivalentes, con aprobación previa de un asesor humano.\n\n### 6.3 Reparación fuera de la garantía\n\nPara los equipos fuera de garantía, el diagnóstico tiene un costo de $12.000. Luego del diagnóstico, el cliente recibe un presupuesto de reparación. Si el cliente acepta el presupuesto, los $12.000 del diagnóstico se descuentan del valor de la reparación; si no lo acepta, el equipo se devuelve sin reparar.\n\n### 6.4 Datos personales del equipo\n\nAntes de enviar un equipo al servicio técnico, el cliente debe hacer una copia de seguridad de sus datos y cerrar sesión en sus cuentas. CeluCentral no se hace responsable por la pérdida de fotos, contactos u otra información guardada en el equipo durante la reparación.\n\n## 7. Compras de 5 o más equipos\n\nLas compras de 5 o más equipos en un mismo pedido no se gestionan por la tienda online. Estas compras se derivan a un asesor comercial humano de CeluCentral, que confirma las condiciones y se contacta con el cliente por correo electrónico dentro de las 48 horas hábiles.\n\n## 8. Canales y horarios de atención\n\nEl asistente virtual de CeluCentral atiende consultas todos los días, las 24 horas. Los asesores humanos atienden de lunes a viernes de 9 a 18 horas, excepto feriados nacionales. Las consultas que requieren un asesor humano y llegan fuera de ese horario se responden el siguiente día hábil.",
+              "type": "string"
+            },
+            {
+              "id": "39fe7086-e713-4681-b73d-89edb0a10baf",
+              "name": "fuente",
+              "value": "Manual_Politicas_CeluCentral_2026",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "cc04de2b-1939-47d4-8758-124772d331e0",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "tableName": "celucentral_politicas",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePGVector",
+      "typeVersion": 1.3,
+      "position": [
+        448,
+        0
+      ],
+      "id": "59a41aef-bc28-4c39-818d-b0d743b31890",
+      "name": "Postgres PGVector Store",
+      "credentials": {
+        "postgres": {
+          "id": "EnlVhhTbJAsazm8a",
+          "name": "Postgres Neon CeluCentral"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        448,
+        256
+      ],
+      "id": "344692d5-9fb3-49e2-8215-c58cc06effc0",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "lFhbI0tvChhbigmT",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsonMode": "expressionData",
+        "jsonData": "={{ $json.texto }}",
+        "textSplittingMode": "custom",
+        "options": {
+          "metadata": {
+            "metadataValues": [
+              {
+                "name": "fuente",
+                "value": "={{ $json.fuente }}"
+              }
+            ]
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        672,
+        224
+      ],
+      "id": "4d32ccfb-db2f-4c65-a0e1-8a03ae3135f5",
+      "name": "Default Data Loader"
+    },
+    {
+      "parameters": {
+        "chunkOverlap": 150,
+        "options": {
+          "splitCode": "markdown"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
+      "typeVersion": 1,
+      "position": [
+        768,
+        384
+      ],
+      "id": "2835480a-f337-4bc3-b679-deab07550744",
+      "name": "Recursive Character Text Splitter"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Postgres PGVector Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Postgres PGVector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Postgres PGVector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Recursive Character Text Splitter": {
+      "ai_textSplitter": [
+        [
+          {
+            "node": "Default Data Loader",
+            "type": "ai_textSplitter",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "3ccf6be9-cb25-423b-b695-ee5aac61316a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0d07373f2f46a8d2abda6a986bd845efe813dda2403aa50d1328f35cea717568"
+  },
+  "nodeGroups": [],
+  "id": "6Fo6YRAfyYGLxzYF",
+  "tags": []
+}
